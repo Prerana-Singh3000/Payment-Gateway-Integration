@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url('4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    font-size: 6rem;
+    background-color: rgba(70, 70, 70, 0.658);
+}
+h3{
+    text-align: center;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+form{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(0, 132, 255);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+}
+input{
+    width: 70%;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#submit input{
+    text-align: center;
+    height: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
